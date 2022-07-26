@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e01a85abb798412ab9ec5415b929d97, type: 3}
+  m_Name: Removables
+  m_EditorClassIdentifier: 
+  RemovablesCategoryId: removables
+  Category:
+  - {fileID: 105562, guid: 75b9e1c134e4b5743a3e2300d1244e13, type: 3}
+  - {fileID: 179170, guid: 99b8acf3ae054824498ad6994ceed90a, type: 3}
+  - {fileID: 180630, guid: db3b37a17375e1c40b74ca9d093a8a64, type: 3}
+  - {fileID: 118678, guid: e9e3554a9a0c65949aa3c784189320eb, type: 3}
+  - {fileID: 106198, guid: 56597203ba185394d909eb40c7a3b506, type: 3}
+  - {fileID: 102916, guid: 7282c4056efcd384297db7ff9025b486, type: 3}
+  - {fileID: 100226, guid: caa2fda2911de474684091c634f0a187, type: 3}
+  - {fileID: 134590, guid: 47623fd3ef3955c4299a60b28c7ea385, type: 3}
+  - {fileID: 133900, guid: 3daeba40e65b8614081d5358bfd18529, type: 3}
+  - {fileID: 161550, guid: e577e71474ac09c429e8139810864770, type: 3}
+  - {fileID: 195224, guid: 5fc3320561513fb46a3ad6818282f3da, type: 3}
+  - {fileID: 175896, guid: 5301c5a8223904a4b8827d3f0310db96, type: 3}
+  - {fileID: 123446, guid: ed3ff29f27c58534f816e922f200dc41, type: 3}
+  - {fileID: 125948, guid: 0cf20e3e2ea7539409c0a68f73411755, type: 3}
+  - {fileID: 179456, guid: e81138ffdcd0b814c8ab6a0b8d0d3855, type: 3}
+  RemovableTimerPrefab: {fileID: 165016, guid: c750590b8c15ae7408886727d4115c54, type: 3}

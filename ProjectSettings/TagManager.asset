@@ -3,7 +3,34 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Construction
+  - Obstacle
+  - GridLabel
+  - Rubble
+  - Projectile
+  - BuildingCannon
+  - Bullet
+  - Star
+  - Gain
+  - TransData
+  - BuildingStar
+  - BuildingGun
+  - Smoke
+  - Fire
+  - DamageBar
+  - OutofMap
+  - Shadow
+  - Snow
+  - Removable
+  - RemovableTimer
+  - Summon
+  - Target
+  - Grass
+  - Structure
+  - Unit
+  - Dobbit
+  - StoneWall
   layers:
   - Default
   - TransparentFX
@@ -13,12 +40,12 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - UILayer
+  - Grass
+  - Hide
+  - RayLayer
+  - LightLayer
+  - SFX
   - 
   - 
   - 

@@ -1,0 +1,372 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1871346d246841f1a18077cd591838c0, type: 3}
+  m_Name: BuildingsCategory
+  m_EditorClassIdentifier: 
+  storeCategoryId: buildings
+  category:
+  - name: Dobbit Toolhouse
+    id: 0
+    levels:
+    - Description: They live in the tiniest of houses, they don't talk much, and
+        they're not much to look at. Yet, you'll never have enough of these guys.
+        We'll make sure of that.
+      Currency: 3
+      Price: 25
+      TimeToBuild: 5
+      XpAward: 100
+      HP: 200
+      UpRatio: 0
+      IdOfBigIcon: dobbitToolhouse
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: crystal
+      IdOfBlackBigIcon: dobbitToolhouse_bw
+      MaxCountOfThisItem: 100
+      name: Dobbit Toolhouse
+      id: 0
+      level: 1
+      asset: {fileID: 100000, guid: 17e4a8c94f7abdb4ba44b33e1af95bac, type: 3}
+      structureType: Toolhouse
+      prodType: 0
+      prodPerHour: 0
+      storeType: 0
+      storeResource: 0
+      storeCap: 0
+      damagePoints: 0
+      fireRate: 0
+      grassType: 1
+      pivotCorrection: 1
+      constructionType: 1
+    - Description: They live in the tiniest of houses, they don't talk much, and
+        they're not much to look at. Yet, you'll never have enough of these guys.
+        We'll make sure of that.
+      Currency: 3
+      Price: 30
+      TimeToBuild: 10
+      XpAward: 200
+      HP: 300
+      UpRatio: 0
+      IdOfBigIcon: dobbitToolhouse
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: crystal
+      IdOfBlackBigIcon: dobbitToolhouse_bw
+      MaxCountOfThisItem: 100
+      name: Dobbit Toolhouse
+      id: 0
+      level: 2
+      asset: {fileID: 100000, guid: 17e4a8c94f7abdb4ba44b33e1af95bac, type: 3}
+      structureType: Toolhouse
+      prodType: 0
+      prodPerHour: 0
+      storeType: 0
+      storeResource: 0
+      storeCap: 0
+      damagePoints: 0
+      fireRate: 0
+      grassType: 1
+      pivotCorrection: 1
+      constructionType: 1
+  - name: Gold Forge
+    id: 1
+    levels:
+    - Description: Gold mines are so '2050s. Mages create gold by simply mumbling
+        to themselves. Or pull it out of their, aaa... pointy hats! We never asked.
+        Neither should you. Know your place, little one.
+      Currency: 2
+      Price: 100
+      TimeToBuild: 10
+      XpAward: 100
+      HP: 300
+      UpRatio: 2
+      IdOfBigIcon: goldForge
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: mana
+      IdOfBlackBigIcon: goldForge_bw
+      MaxCountOfThisItem: 100
+      name: Gold Forge
+      id: 1
+      level: 1
+      asset: {fileID: 100000, guid: 0a74eebbc96f8a548ab7c21ae876371c, type: 3}
+      structureType: Forge
+      prodType: 3
+      prodPerHour: 100
+      storeType: 1
+      storeResource: 3
+      storeCap: 500
+      damagePoints: 0
+      fireRate: 0
+      grassType: 2
+      pivotCorrection: 0
+      constructionType: 2
+    - Description: Gold mines are so '2050s. Mages create gold by simply mumbling
+        to themselves. Or pull it out of their, aaa... pointy hats! We never asked.
+        Neither should you. Know your place, little one.
+      Currency: 2
+      Price: 200
+      TimeToBuild: 20
+      XpAward: 300
+      HP: 400
+      UpRatio: 2
+      IdOfBigIcon: goldForge
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: mana
+      IdOfBlackBigIcon: goldForge_bw
+      MaxCountOfThisItem: 100
+      name: Gold Forge
+      id: 1
+      level: 2
+      asset: {fileID: 100000, guid: 0c7bcf95df35a486a9055d4b21dbf95c, type: 3}
+      structureType: Forge
+      prodType: 3
+      prodPerHour: 200
+      storeType: 1
+      storeResource: 3
+      storeCap: 600
+      damagePoints: 0
+      fireRate: 0
+      grassType: 2
+      pivotCorrection: 0
+      constructionType: 2
+  - name: Mana Generator
+    id: 2
+    levels:
+    - Description: Our blessed brewery. Keeps the population happy. And tranquil.
+        Is Jim Bob up and about yet? He knows this stuff.
+      Currency: 1
+      Price: 100
+      TimeToBuild: 10
+      XpAward: 100
+      HP: 300
+      UpRatio: 2
+      IdOfBigIcon: manaGenerator
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: manaGenerator_bw
+      MaxCountOfThisItem: 100
+      name: Mana Generator
+      id: 2
+      level: 1
+      asset: {fileID: 100000, guid: b1d0fd13f9c54d64dbd6f0e4a0068bcf, type: 3}
+      structureType: Generator
+      prodType: 4
+      prodPerHour: 100
+      storeType: 1
+      storeResource: 4
+      storeCap: 500
+      damagePoints: 0
+      fireRate: 0
+      grassType: 2
+      pivotCorrection: 0
+      constructionType: 2
+    - Description: Our blessed brewery. Keeps the population happy. And tranquil.
+        Is Jim Bob up and about yet? He knows this stuff.
+      Currency: 1
+      Price: 200
+      TimeToBuild: 20
+      XpAward: 100
+      HP: 300
+      UpRatio: 2
+      IdOfBigIcon: manaGenerator
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: manaGenerator_bw
+      MaxCountOfThisItem: 100
+      name: Mana Generator
+      id: 2
+      level: 2
+      asset: {fileID: 100000, guid: b1d0fd13f9c54d64dbd6f0e4a0068bcf, type: 3}
+      structureType: Generator
+      prodType: 4
+      prodPerHour: 100
+      storeType: 1
+      storeResource: 4
+      storeCap: 600
+      damagePoints: 0
+      fireRate: 0
+      grassType: 2
+      pivotCorrection: 0
+      constructionType: 2
+  - name: Gold Vault
+    id: 3
+    levels:
+    - Description: Like a bank. But with gold. Always empty. Get back to work!
+      Currency: 2
+      Price: 200
+      TimeToBuild: 15
+      XpAward: 100
+      HP: 400
+      UpRatio: 2
+      IdOfBigIcon: goldVault
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: mana
+      IdOfBlackBigIcon: goldVault_bw
+      MaxCountOfThisItem: 100
+      name: Gold Vault
+      id: 3
+      level: 1
+      asset: {fileID: 100000, guid: 4542218d74aecb347ac5c25ed997d3d5, type: 3}
+      structureType: Vault
+      prodType: 0
+      prodPerHour: 0
+      storeType: 2
+      storeResource: 3
+      storeCap: 2500
+      damagePoints: 0
+      fireRate: 0
+      grassType: 2
+      pivotCorrection: 0
+      constructionType: 2
+    - Description: Like a bank. But with gold. Always empty. Get back to work!
+      Currency: 2
+      Price: 300
+      TimeToBuild: 20
+      XpAward: 100
+      HP: 500
+      UpRatio: 2
+      IdOfBigIcon: goldVault
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: mana
+      IdOfBlackBigIcon: goldVault_bw
+      MaxCountOfThisItem: 100
+      name: Gold Vault
+      id: 3
+      level: 2
+      asset: {fileID: 100000, guid: 4542218d74aecb347ac5c25ed997d3d5, type: 3}
+      structureType: Vault
+      prodType: 0
+      prodPerHour: 0
+      storeType: 2
+      storeResource: 3
+      storeCap: 2500
+      damagePoints: 0
+      fireRate: 0
+      grassType: 2
+      pivotCorrection: 0
+      constructionType: 2
+  - name: Mana Barrel
+    id: 4
+    levels:
+    - Description: The main pub. Serving mages favorite drink. The last but not least
+        of our problems.
+      Currency: 1
+      Price: 200
+      TimeToBuild: 15
+      XpAward: 100
+      HP: 0
+      UpRatio: 2
+      IdOfBigIcon: manaBarrel
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: manaBarrel_bw
+      MaxCountOfThisItem: 100
+      name: Mana Barrel
+      id: 4
+      level: 1
+      asset: {fileID: 100000, guid: f3e4b834838af5f4086ad466a98ee494, type: 3}
+      structureType: Barrel
+      prodType: 0
+      prodPerHour: 0
+      storeType: 2
+      storeResource: 4
+      storeCap: 2500
+      damagePoints: 0
+      fireRate: 0
+      grassType: 2
+      pivotCorrection: 0
+      constructionType: 2
+    - Description: The main pub. Serving mages favorite drink. The last but not least
+        of our problems.
+      Currency: 1
+      Price: 400
+      TimeToBuild: 25
+      XpAward: 100
+      HP: 400
+      UpRatio: 2
+      IdOfBigIcon: manaBarrel
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: manaBarrel_bw
+      MaxCountOfThisItem: 100
+      name: Mana Barrel
+      id: 4
+      level: 2
+      asset: {fileID: 100000, guid: da060e60b748a43b1893a57ad63b1ca4, type: 3}
+      structureType: Barrel
+      prodType: 0
+      prodPerHour: 0
+      storeType: 2
+      storeResource: 4
+      storeCap: 2500
+      damagePoints: 0
+      fireRate: 0
+      grassType: 2
+      pivotCorrection: 0
+      constructionType: 2
+  - name: Summoning Circle
+    id: 5
+    levels:
+    - Description: Cuckooland HQ. Plus, wizards enjoy summoning weird creatures.
+        More often then not, they're barely finished when they start to run.
+      Currency: 2
+      Price: 1000
+      TimeToBuild: 120
+      XpAward: 200
+      HP: 1000
+      UpRatio: 0
+      IdOfBigIcon: summoningCircle
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: mana
+      IdOfBlackBigIcon: summoningCircle_bw
+      MaxCountOfThisItem: 100
+      name: Summoning Circle
+      id: 5
+      level: 1
+      asset: {fileID: 154402, guid: 1bd47362117ea3447b9a2e3847bdbd38, type: 3}
+      structureType: Summon
+      prodType: 0
+      prodPerHour: 0
+      storeType: 2
+      storeResource: 6
+      storeCap: 1000
+      damagePoints: 0
+      fireRate: 0
+      grassType: 2
+      pivotCorrection: 0
+      constructionType: 2
+    - Description: Cuckooland HQ. Plus, wizards enjoy summoning weird creatures.
+        More often then not, they're barely finished when they start to run.
+      Currency: 2
+      Price: 2000
+      TimeToBuild: 150
+      XpAward: 200
+      HP: 1000
+      UpRatio: 0
+      IdOfBigIcon: summoningCircle
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: mana
+      IdOfBlackBigIcon: summoningCircle_bw
+      MaxCountOfThisItem: 100
+      name: Summoning Circle
+      id: 5
+      level: 2
+      asset: {fileID: 154402, guid: 1bd47362117ea3447b9a2e3847bdbd38, type: 3}
+      structureType: Summon
+      prodType: 0
+      prodPerHour: 0
+      storeType: 2
+      storeResource: 6
+      storeCap: 1000
+      damagePoints: 0
+      fireRate: 0
+      grassType: 2
+      pivotCorrection: 0
+      constructionType: 2

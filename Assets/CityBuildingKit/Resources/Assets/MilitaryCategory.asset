@@ -1,0 +1,352 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 435703745bf74919b575f487edc983a2, type: 3}
+  m_Name: MilitaryCategory
+  m_EditorClassIdentifier: 
+  storeCategoryId: military
+  category:
+  - name: Wizard Academy
+    id: 6
+    levels:
+    - Description: Rubbing elbows with the finest. A place for training the elite
+        of       our magic forces. Or waste 5 years of our lives. It can go either
+        way with this       crew.
+      Currency: 1
+      Price: 10000
+      TimeToBuild: 60
+      XpAward: 500
+      HP: 200
+      UpRatio: 1
+      IdOfBigIcon: wizardAcademy
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: wizardAcademy_bw
+      MaxCountOfThisItem: 100
+      name: Wizard Academy
+      id: 6
+      level: 1
+      asset: {fileID: 100000, guid: c612e19b3413f534db873cd401d013c5, type: 3}
+      storeCap: 0
+      storeType: 0
+      storeResource: 0
+      prodType: 0
+      prodPerHour: 0
+      structureType: Academy
+      grassType: 3
+      pivotCorrection: 1
+      constructionType: 2
+    - Description: Rubbing elbows with the finest. A place for training the elite
+        of       our magic forces. Or waste 5 years of our lives. It can go either
+        way with this       crew.
+      Currency: 1
+      Price: 20000
+      TimeToBuild: 70
+      XpAward: 500
+      HP: 200
+      UpRatio: 1
+      IdOfBigIcon: wizardAcademy
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: wizardAcademy_bw
+      MaxCountOfThisItem: 100
+      name: Wizard Academy
+      id: 6
+      level: 2
+      asset: {fileID: 100000, guid: c612e19b3413f534db873cd401d013c5, type: 3}
+      storeCap: 0
+      storeType: 0
+      storeResource: 0
+      prodType: 0
+      prodPerHour: 0
+      structureType: Academy
+      grassType: 3
+      pivotCorrection: 1
+      constructionType: 2
+  - name: Classroom
+    id: 7
+    levels:
+    - Description: Apprentices. They will be wizards some day. Assuming they graduate.
+        Like... ever.
+      Currency: 1
+      Price: 5000
+      TimeToBuild: 30
+      XpAward: 400
+      HP: 200
+      UpRatio: 1
+      IdOfBigIcon: classroom
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: classroom_bw
+      MaxCountOfThisItem: 100
+      name: Classroom
+      id: 7
+      level: 1
+      asset: {fileID: 100000, guid: 5672d223d607b6c4a937effccb837a52, type: 3}
+      storeCap: 0
+      storeType: 0
+      storeResource: 0
+      prodType: 0
+      prodPerHour: 0
+      structureType: Classroom
+      grassType: 2
+      pivotCorrection: 0
+      constructionType: 2
+    - Description: Apprentices. They will be wizards some day. Assuming they graduate.
+        Like... ever.
+      Currency: 1
+      Price: 6000
+      TimeToBuild: 30
+      XpAward: 400
+      HP: 200
+      UpRatio: 1
+      IdOfBigIcon: classroom
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: classroom_bw
+      MaxCountOfThisItem: 100
+      name: Classroom
+      id: 7
+      level: 2
+      asset: {fileID: 100000, guid: 5672d223d607b6c4a937effccb837a52, type: 3}
+      storeCap: 0
+      storeType: 0
+      storeResource: 0
+      prodType: 0
+      prodPerHour: 0
+      structureType: Classroom
+      grassType: 2
+      pivotCorrection: 0
+      constructionType: 2
+  - name: Chessboard
+    id: 8
+    levels:
+    - Description: This contraption was supposed to make everybody smarter, but our
+        soldiers use it so infrequently that we can neither confirm nor deny it.
+      Currency: 2
+      Price: 3000
+      TimeToBuild: 60
+      XpAward: 200
+      HP: 100
+      UpRatio: 0
+      IdOfBigIcon: chessboard
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: mana
+      IdOfBlackBigIcon: chessboard_bw
+      MaxCountOfThisItem: 100
+      name: Chessboard
+      id: 8
+      level: 1
+      asset: {fileID: 100000, guid: 884dca05067fe5f4ab25b88209d0a59e, type: 3}
+      storeCap: 0
+      storeType: 0
+      storeResource: 0
+      prodType: 0
+      prodPerHour: 0
+      structureType: Chessboard
+      grassType: 2
+      pivotCorrection: 0
+      constructionType: 2
+    - Description: This contraption was supposed to make everybody smarter, but our
+        soldiers use it so infrequently that we can neither confirm nor deny it.
+      Currency: 2
+      Price: 4000
+      TimeToBuild: 70
+      XpAward: 200
+      HP: 200
+      UpRatio: 0
+      IdOfBigIcon: chessboard
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: mana
+      IdOfBlackBigIcon: chessboard_bw
+      MaxCountOfThisItem: 100
+      name: Chessboard
+      id: 8
+      level: 2
+      asset: {fileID: 100000, guid: 884dca05067fe5f4ab25b88209d0a59e, type: 3}
+      storeCap: 0
+      storeType: 0
+      storeResource: 0
+      prodType: 0
+      prodPerHour: 0
+      structureType: Chessboard
+      grassType: 2
+      pivotCorrection: 0
+      constructionType: 2
+  - name: Research Globe
+    id: 9
+    levels:
+    - Description: Knowledge. The final frontier. Or at least that's what we thought.
+        The less you know, the better. Seriously.
+      Currency: 2
+      Price: 20000
+      TimeToBuild: 120
+      XpAward: 500
+      HP: 200
+      UpRatio: 1
+      IdOfBigIcon: researchGlobe
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: mana
+      IdOfBlackBigIcon: researchGlobe_bw
+      MaxCountOfThisItem: 100
+      name: Research Globe
+      id: 9
+      level: 1
+      asset: {fileID: 100000, guid: 32ccfd5b9d0efdd46b51d1937ba58df8, type: 3}
+      storeCap: 0
+      storeType: 0
+      storeResource: 0
+      prodType: 0
+      prodPerHour: 0
+      structureType: Globe
+      grassType: 2
+      pivotCorrection: 0
+      constructionType: 2
+    - Description: Knowledge. The final frontier. Or at least that's what we thought.
+        The less you know, the better. Seriously.
+      Currency: 2
+      Price: 30000
+      TimeToBuild: 120
+      XpAward: 500
+      HP: 200
+      UpRatio: 1
+      IdOfBigIcon: researchGlobe
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: mana
+      IdOfBlackBigIcon: researchGlobe_bw
+      MaxCountOfThisItem: 100
+      name: Research Globe
+      id: 9
+      level: 2
+      asset: {fileID: 100000, guid: 32ccfd5b9d0efdd46b51d1937ba58df8, type: 3}
+      storeCap: 0
+      storeType: 0
+      storeResource: 0
+      prodType: 0
+      prodPerHour: 0
+      structureType: Globe
+      grassType: 2
+      pivotCorrection: 0
+      constructionType: 2
+  - name: Workshop
+    id: 10
+    levels:
+    - Description: If it's wood or metal and it makes strange noises, or there's
+        smoke coming out of it, this is where you come to fix it. Unless it's Friday.
+        Or Monday. Maybe Wednesday... Feel free to call first.
+      Currency: 1
+      Price: 20000
+      TimeToBuild: 120
+      XpAward: 500
+      HP: 200
+      UpRatio: 1
+      IdOfBigIcon: workshop
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: workshop_bw
+      MaxCountOfThisItem: 100
+      name: Workshop
+      id: 10
+      level: 1
+      asset: {fileID: 100000, guid: 32ccfd5b9d0efdd46b51d1937ba58df8, type: 3}
+      storeCap: 0
+      storeType: 0
+      storeResource: 0
+      prodType: 0
+      prodPerHour: 0
+      structureType: Workshop
+      grassType: 2
+      pivotCorrection: 0
+      constructionType: 2
+    - Description: If it's wood or metal and it makes strange noises, or there's
+        smoke coming out of it, this is where you come to fix it. Unless it's Friday.
+        Or Monday. Maybe Wednesday... Feel free to call first.
+      Currency: 1
+      Price: 30000
+      TimeToBuild: 130
+      XpAward: 500
+      HP: 200
+      UpRatio: 1
+      IdOfBigIcon: workshop
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: workshop_bw
+      MaxCountOfThisItem: 100
+      name: Workshop
+      id: 10
+      level: 2
+      asset: {fileID: 100000, guid: 32ccfd5b9d0efdd46b51d1937ba58df8, type: 3}
+      storeCap: 0
+      storeType: 0
+      storeResource: 0
+      prodType: 0
+      prodPerHour: 0
+      structureType: Workshop
+      grassType: 2
+      pivotCorrection: 0
+      constructionType: 2
+  - name: Tatami
+    id: 11
+    levels:
+    - Description: Once upon a time, in a distant land filled with mistery and magic,
+        a gathering of mighty heroes found a little dog called Squea... Honey? The
+        pancakes are ready!
+      Currency: 2
+      Price: 2000
+      TimeToBuild: 60
+      XpAward: 500
+      HP: 200
+      UpRatio: 2
+      IdOfBigIcon: tatami
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: mana
+      IdOfBlackBigIcon: tatami_bw
+      MaxCountOfThisItem: 100
+      name: Tatami
+      id: 11
+      level: 2
+      asset: {fileID: 154402, guid: 1bd47362117ea3447b9a2e3847bdbd38, type: 3}
+      storeCap: 25
+      storeType: 2
+      storeResource: 7
+      prodType: 0
+      prodPerHour: 0
+      structureType: Tatami
+      grassType: 4
+      pivotCorrection: 0
+      constructionType: 2
+    - Description: Once upon a time, in a distant land filled with mistery and magic,
+        a gathering of mighty heroes found a little dog called Squea... Honey? The
+        pancakes are ready!
+      Currency: 2
+      Price: 1000
+      TimeToBuild: 60
+      XpAward: 500
+      HP: 200
+      UpRatio: 2
+      IdOfBigIcon: tatami
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: mana
+      IdOfBlackBigIcon: tatami_bw
+      MaxCountOfThisItem: 100
+      name: Tatami
+      id: 11
+      level: 1
+      asset: {fileID: 154402, guid: 1bd47362117ea3447b9a2e3847bdbd38, type: 3}
+      storeCap: 25
+      storeType: 2
+      storeResource: 7
+      prodType: 0
+      prodPerHour: 0
+      structureType: Tatami
+      grassType: 4
+      pivotCorrection: 0
+      constructionType: 2

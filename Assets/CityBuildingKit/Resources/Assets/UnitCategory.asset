@@ -1,0 +1,520 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9eb87e8de48a4d01aab61ab9ea3e5a8d, type: 3}
+  m_Name: UnitCategory
+  m_EditorClassIdentifier: 
+  storeCategoryId: unit
+  category:
+  - name: Green Alien
+    id: 0
+    levels:
+    - Description: A smelly alien, green with envy. Maybe it's something he ate?
+      Currency: 2
+      Price: 50
+      TimeToBuild: 1
+      XpAward: 100
+      HP: 200
+      UpRatio: 0
+      IdOfBigIcon: greenAlien
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: mana
+      IdOfBlackBigIcon: 
+      MaxCountOfThisItem: 0
+      name: Green Alien
+      id: 0
+      level: 1
+      unitType: 1
+      size: 1
+      priceToSpeedUpUpgrade: 10
+      asset: {fileID: 1000010859515144, guid: 27361d69eadf84b4aae672d0549f53b9, type: 3}
+      damagePoints: 1
+      fireRate: 2
+      damageType: 0
+    - Description: A smelly alien, green with envy. Maybe it's something he ate?
+      Currency: 2
+      Price: 2
+      TimeToBuild: 1
+      XpAward: 100
+      HP: 300
+      UpRatio: 0
+      IdOfBigIcon: greenAlien
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: mana
+      IdOfBlackBigIcon: 
+      MaxCountOfThisItem: 100
+      name: Green Alien
+      id: 0
+      level: 2
+      unitType: 1
+      size: 1
+      priceToSpeedUpUpgrade: 1
+      asset: {fileID: 1000010859515144, guid: 9562b3a796ee64ddb944d26428a405cb, type: 3}
+      damagePoints: 1
+      fireRate: 3
+      damageType: 0
+    - Description: A smelly alien, green with envy. Maybe it's something he ate?
+      Currency: 2
+      Price: 2
+      TimeToBuild: 1
+      XpAward: 100
+      HP: 300
+      UpRatio: 0
+      IdOfBigIcon: greenAlien
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: mana
+      IdOfBlackBigIcon: 
+      MaxCountOfThisItem: 100
+      name: Green Alien
+      id: 0
+      level: 3
+      unitType: 1
+      size: 1
+      priceToSpeedUpUpgrade: 1
+      asset: {fileID: 1000010859515144, guid: 9562b3a796ee64ddb944d26428a405cb, type: 3}
+      damagePoints: 1
+      fireRate: 3
+      damageType: 0
+  - name: Archer
+    id: 1
+    levels:
+    - Description: Enchanted forest's finest.
+      Currency: 2
+      Price: 50
+      TimeToBuild: 1
+      XpAward: 100
+      HP: 200
+      UpRatio: 0
+      IdOfBigIcon: archer
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: mana
+      IdOfBlackBigIcon: 
+      MaxCountOfThisItem: 0
+      name: Archer
+      id: 1
+      level: 1
+      unitType: 2
+      size: 1
+      priceToSpeedUpUpgrade: 10
+      asset: {fileID: 1000014061624702, guid: b69b833e6ff28e64e8752a71cdf77eae, type: 3}
+      damagePoints: 10
+      fireRate: 3
+      damageType: 0
+    - Description: Enchanted forest's finest.
+      Currency: 2
+      Price: 50
+      TimeToBuild: 1
+      XpAward: 100
+      HP: 200
+      UpRatio: 0
+      IdOfBigIcon: archer
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: mana
+      IdOfBlackBigIcon: 
+      MaxCountOfThisItem: 0
+      name: Archer
+      id: 1
+      level: 2
+      unitType: 2
+      size: 1
+      priceToSpeedUpUpgrade: 10
+      asset: {fileID: 1000014061624702, guid: b69b833e6ff28e64e8752a71cdf77eae, type: 3}
+      damagePoints: 30
+      fireRate: 4
+      damageType: 0
+  - name: Handy Man
+    id: 2
+    levels:
+    - Description: Double the smash, in half the time. And how many beers can this
+        guy
+      Currency: 2
+      Price: 100
+      TimeToBuild: 1
+      XpAward: 100
+      HP: 0
+      UpRatio: 0
+      IdOfBigIcon: handyMan
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: mana
+      IdOfBlackBigIcon: 
+      MaxCountOfThisItem: 0
+      name: Handy Man
+      id: 2
+      level: 1
+      unitType: 3
+      size: 2
+      priceToSpeedUpUpgrade: 10
+      asset: {fileID: 1000010816510228, guid: 4940142c66ded2a4a8183daaef6924f9, type: 3}
+      damagePoints: 10
+      fireRate: 2
+      damageType: 0
+    - Description: Double the smash, in half the time. And how many beers can this
+        guy
+      Currency: 2
+      Price: 200
+      TimeToBuild: 2
+      XpAward: 200
+      HP: 200
+      UpRatio: 0
+      IdOfBigIcon: handyMan
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: mana
+      IdOfBlackBigIcon: 
+      MaxCountOfThisItem: 0
+      name: Handy Man
+      id: 2
+      level: 2
+      unitType: 3
+      size: 2
+      priceToSpeedUpUpgrade: 0
+      asset: {fileID: 1000010816510228, guid: 4940142c66ded2a4a8183daaef6924f9, type: 3}
+      damagePoints: 20
+      fireRate: 4
+      damageType: 0
+  - name: Hydra
+    id: 3
+    levels:
+    - Description: It's like a dragon. With no wings.
+      Currency: 2
+      Price: 100
+      TimeToBuild: 1
+      XpAward: 100
+      HP: 200
+      UpRatio: 0
+      IdOfBigIcon: hydra
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: mana
+      IdOfBlackBigIcon: 
+      MaxCountOfThisItem: 0
+      name: Hydra
+      id: 3
+      level: 1
+      unitType: 4
+      size: 2
+      priceToSpeedUpUpgrade: 10
+      asset: {fileID: 1000012744059930, guid: 62cc832607f02454598998d25d29e7d2, type: 3}
+      damagePoints: 10
+      fireRate: 2
+      damageType: 0
+    - Description: It's like a dragon. With no wings.
+      Currency: 2
+      Price: 100
+      TimeToBuild: 1
+      XpAward: 100
+      HP: 200
+      UpRatio: 0
+      IdOfBigIcon: hydra
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: mana
+      IdOfBlackBigIcon: 
+      MaxCountOfThisItem: 0
+      name: Hydra
+      id: 3
+      level: 2
+      unitType: 4
+      size: 2
+      priceToSpeedUpUpgrade: 10
+      asset: {fileID: 1000012744059930, guid: 62cc832607f02454598998d25d29e7d2, type: 3}
+      damagePoints: 20
+      fireRate: 2
+      damageType: 0
+  - name: Clockwork tree
+    id: 4
+    levels:
+    - Description: Memorabilia for passers by. Flaming arrows, goblets of fire. A
+        lot       of underlying issues about being made of kindling.
+      Currency: 2
+      Price: 150
+      TimeToBuild: 1
+      XpAward: 100
+      HP: 200
+      UpRatio: 0
+      IdOfBigIcon: clockworktree
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: mana
+      IdOfBlackBigIcon: 
+      MaxCountOfThisItem: 0
+      name: Clockwork tree
+      id: 4
+      level: 1
+      unitType: 5
+      size: 3
+      priceToSpeedUpUpgrade: 10
+      asset: {fileID: 0}
+      damagePoints: 10
+      fireRate: 2
+      damageType: 0
+    - Description: Memorabilia for passers by. Flaming arrows, goblets of fire. A
+        lot       of underlying issues about being made of kindling.
+      Currency: 2
+      Price: 150
+      TimeToBuild: 1
+      XpAward: 100
+      HP: 200
+      UpRatio: 0
+      IdOfBigIcon: clockworktree
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: mana
+      IdOfBlackBigIcon: 
+      MaxCountOfThisItem: 0
+      name: Clockwork tree
+      id: 4
+      level: 2
+      unitType: 5
+      size: 3
+      priceToSpeedUpUpgrade: 10
+      asset: {fileID: 0}
+      damagePoints: 20
+      fireRate: 3
+      damageType: 0
+  - name: Mage
+    id: 5
+    levels:
+    - Description: Minor drinking issues. Mana, fountain of youth, perfume, nail
+        polish.       He means well. We go way back.
+      Currency: 2
+      Price: 150
+      TimeToBuild: 1
+      XpAward: 100
+      HP: 200
+      UpRatio: 0
+      IdOfBigIcon: mage
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: mana
+      IdOfBlackBigIcon: 
+      MaxCountOfThisItem: 0
+      name: Mage
+      id: 5
+      level: 1
+      unitType: 6
+      size: 3
+      priceToSpeedUpUpgrade: 10
+      asset: {fileID: 1000010819515168, guid: 3e270b1b343316349b464ac84cf72d3d, type: 3}
+      damagePoints: 10
+      fireRate: 2
+      damageType: 0
+    - Description: Minor drinking issues. Mana, fountain of youth, perfume, nail
+        polish.       He means well. We go way back.
+      Currency: 2
+      Price: 150
+      TimeToBuild: 1
+      XpAward: 100
+      HP: 200
+      UpRatio: 0
+      IdOfBigIcon: mage
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: mana
+      IdOfBlackBigIcon: 
+      MaxCountOfThisItem: 0
+      name: Mage
+      id: 5
+      level: 2
+      unitType: 6
+      size: 3
+      priceToSpeedUpUpgrade: 10
+      asset: {fileID: 1000010819515168, guid: 3e270b1b343316349b464ac84cf72d3d, type: 3}
+      damagePoints: 30
+      fireRate: 4
+      damageType: 0
+  - name: Viking
+    id: 6
+    levels:
+    - Description: The antlers are sold separately. The beard is just a fasion statement.
+      Currency: 2
+      Price: 200
+      TimeToBuild: 1
+      XpAward: 100
+      HP: 5000
+      UpRatio: 0
+      IdOfBigIcon: viking
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: mana
+      IdOfBlackBigIcon: 
+      MaxCountOfThisItem: 0
+      name: Viking
+      id: 6
+      level: 1
+      unitType: 7
+      size: 4
+      priceToSpeedUpUpgrade: 10
+      asset: {fileID: 1000012151502018, guid: ea50df69ba3da284a8f99dd3c9d37fae, type: 3}
+      damagePoints: 10
+      fireRate: 2
+      damageType: 0
+    - Description: The antlers are sold separately. The beard is just a fasion statement.
+      Currency: 2
+      Price: 200
+      TimeToBuild: 1
+      XpAward: 100
+      HP: 5000
+      UpRatio: 0
+      IdOfBigIcon: viking
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: mana
+      IdOfBlackBigIcon: 
+      MaxCountOfThisItem: 0
+      name: Viking
+      id: 6
+      level: 2
+      unitType: 7
+      size: 4
+      priceToSpeedUpUpgrade: 10
+      asset: {fileID: 1000012151502018, guid: ea50df69ba3da284a8f99dd3c9d37fae, type: 3}
+      damagePoints: 20
+      fireRate: 3
+      damageType: 0
+  - name: Porcupine
+    id: 7
+    levels:
+    - Description: Where did this guy come from? We already had an archer. Did Jimmy      
+        hire him?
+      Currency: 2
+      Price: 200
+      TimeToBuild: 1
+      XpAward: 100
+      HP: 4000
+      UpRatio: 0
+      IdOfBigIcon: porcupine
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: mana
+      IdOfBlackBigIcon: 
+      MaxCountOfThisItem: 0
+      name: Porcupine
+      id: 7
+      level: 1
+      unitType: 8
+      size: 4
+      priceToSpeedUpUpgrade: 10
+      asset: {fileID: 0}
+      damagePoints: 10
+      fireRate: 2
+      damageType: 0
+    - Description: Where did this guy come from? We already had an archer. Did Jimmy      
+        hire him?
+      Currency: 2
+      Price: 200
+      TimeToBuild: 1
+      XpAward: 100
+      HP: 4000
+      UpRatio: 0
+      IdOfBigIcon: porcupine
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: mana
+      IdOfBlackBigIcon: 
+      MaxCountOfThisItem: 0
+      name: Porcupine
+      id: 7
+      level: 2
+      unitType: 8
+      size: 4
+      priceToSpeedUpUpgrade: 10
+      asset: {fileID: 0}
+      damagePoints: 20
+      fireRate: 2
+      damageType: 0
+  - name: Robot Chicken
+    id: 8
+    levels:
+    - Description: Escaped from Billy Bob's farm last year, with barely a foot. And      
+        a lot of anger.
+      Currency: 2
+      Price: 250
+      TimeToBuild: 1
+      XpAward: 100
+      HP: 2000
+      UpRatio: 0
+      IdOfBigIcon: robotChicken
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: mana
+      IdOfBlackBigIcon: 
+      MaxCountOfThisItem: 0
+      name: Robot Chicken
+      id: 8
+      level: 1
+      unitType: 9
+      size: 5
+      priceToSpeedUpUpgrade: 10
+      asset: {fileID: 0}
+      damagePoints: 10
+      fireRate: 2
+      damageType: 0
+    - Description: Escaped from Billy Bob's farm last year, with barely a foot. And      
+        a lot of anger.
+      Currency: 2
+      Price: 250
+      TimeToBuild: 1
+      XpAward: 100
+      HP: 2000
+      UpRatio: 0
+      IdOfBigIcon: robotChicken
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: mana
+      IdOfBlackBigIcon: 
+      MaxCountOfThisItem: 0
+      name: Robot Chicken
+      id: 8
+      level: 2
+      unitType: 9
+      size: 5
+      priceToSpeedUpUpgrade: 10
+      asset: {fileID: 0}
+      damagePoints: 20
+      fireRate: 4
+      damageType: 0
+  - name: Wisp
+    id: 9
+    levels:
+    - Description: 'Description: Wheezing through enemy territory. Closest thing
+        to a vampire that       we have.'
+      Currency: 2
+      Price: 250
+      TimeToBuild: 1
+      XpAward: 100
+      HP: 200
+      UpRatio: 0
+      IdOfBigIcon: wisp
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: mana
+      IdOfBlackBigIcon: 
+      MaxCountOfThisItem: 0
+      name: Wisp
+      id: 9
+      level: 1
+      unitType: 10
+      size: 5
+      priceToSpeedUpUpgrade: 10
+      asset: {fileID: 0}
+      damagePoints: 10
+      fireRate: 2
+      damageType: 0
+    - Description: 'Description: Wheezing through enemy territory. Closest thing
+        to a vampire that       we have.'
+      Currency: 2
+      Price: 250
+      TimeToBuild: 1
+      XpAward: 100
+      HP: 200
+      UpRatio: 0
+      IdOfBigIcon: wisp
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: mana
+      IdOfBlackBigIcon: 
+      MaxCountOfThisItem: 0
+      name: Wisp
+      id: 9
+      level: 2
+      unitType: 10
+      size: 5
+      priceToSpeedUpUpgrade: 10
+      asset: {fileID: 0}
+      damagePoints: 20
+      fireRate: 3
+      damageType: 0

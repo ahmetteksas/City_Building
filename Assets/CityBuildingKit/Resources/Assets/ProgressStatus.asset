@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6df6e91f8ae73439181a2784c8e21d6a, type: 3}
+  m_Name: ProgressStatus
+  m_EditorClassIdentifier: 
+  ProgressStatusCategoryId: construction prefabs
+  Category:
+  - {fileID: 1035304107951602, guid: 4bae0b893300830449808976ddf19b74, type: 3}
+  - {fileID: 1050792213049702, guid: 8cd6166309a4b7e4888bc43900cd4ff2, type: 3}
+  - {fileID: 1664667992963916, guid: 1102eb2581ba66e43be29c9ab46cf314, type: 3}
+  - {fileID: 1664667992963916, guid: 1102eb2581ba66e43be29c9ab46cf314, type: 3}
+  - {fileID: 1664667992963916, guid: 1102eb2581ba66e43be29c9ab46cf314, type: 3}
+  - {fileID: 1664667992963916, guid: 1102eb2581ba66e43be29c9ab46cf314, type: 3}
+  - {fileID: 4244762821922616263, guid: 2ccaa2e69d4504e88b10797240b5c30d, type: 3}

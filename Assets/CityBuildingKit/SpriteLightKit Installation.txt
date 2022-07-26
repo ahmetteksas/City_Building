@@ -1,0 +1,16 @@
+
+http://blog.prime31.com/spritelightkit-and-stencil-buffer-introduction/
+
+1- unzip SpriteLightKit-master.zip here
+2- delete the ProjectSettings folder (it's only the Assets folder that you need)
+3- add a new layer called LightLayer in Inspector/Layer(Default)/Add Layer
+4- make sure the 
+	SpriteLightKitImageEffect goes to your tk2dCamera camera
+	SpriteLightKit goes to SpriteLightKit, child of tk2dCamera
+
+License
+
+Attribution-NonCommercial-ShareAlike 3.0 Unported with simple explanation with the attribution clause waived. You are free to use SpriteLightKit in any and all games that you make. You cannot sell SpriteLightKit directly or as part of a larger game asset.
+
+http://creativecommons.org/licenses/by-nc-sa/3.0/legalcode
+http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US

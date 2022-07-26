@@ -1,0 +1,216 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23f775916ab042508611f9ec0253b38d, type: 3}
+  m_Name: WeaponCategory
+  m_EditorClassIdentifier: 
+  storeCategoryId: weapon
+  category:
+  - name: Cannon
+    id: 0
+    levels:
+    - Description: Heavy Artilery
+      Currency: 1
+      Price: 100
+      TimeToBuild: 30
+      XpAward: 100
+      HP: 200
+      UpRatio: 0
+      IdOfBigIcon: cannon
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: cannon_bw
+      MaxCountOfThisItem: 100
+      name: Cannon
+      id: 0
+      level: 1
+      asset: {fileID: 169316, guid: fe2b66d955cbf384b937b70c7d6fb0f5, type: 3}
+      damagePoints: 25
+      range: 50
+      fireRate: 2
+      damageType: 1
+      targetType: 1
+      preferredTarget: 0
+      damageBonus: 0
+      grassType: 2
+      pivotCorrection: 1
+      constructionType: 1
+    - Description: Heavy Artilery
+      Currency: 1
+      Price: 200
+      TimeToBuild: 40
+      XpAward: 100
+      HP: 300
+      UpRatio: 0
+      IdOfBigIcon: cannon
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: cannon_bw
+      MaxCountOfThisItem: 100
+      name: Cannon
+      id: 0
+      level: 2
+      asset: {fileID: 169316, guid: bfeb99ad20dea446e995e4741309ef1e, type: 3}
+      damagePoints: 1
+      range: 50
+      fireRate: 2
+      damageType: 1
+      targetType: 1
+      preferredTarget: 0
+      damageBonus: 0
+      grassType: 2
+      pivotCorrection: 1
+      constructionType: 1
+  - name: Archer Tower
+    id: 1
+    levels:
+    - Description: Ranged
+      Currency: 1
+      Price: 100
+      TimeToBuild: 30
+      XpAward: 100
+      HP: 200
+      UpRatio: 0
+      IdOfBigIcon: archerTower
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: archerTower_bw
+      MaxCountOfThisItem: 100
+      name: Archer Tower
+      id: 1
+      level: 1
+      asset: {fileID: 106100, guid: 0fe88ad97c037a2439b6174db725a957, type: 3}
+      damagePoints: 10
+      range: 50
+      fireRate: 2
+      damageType: 1
+      targetType: 3
+      preferredTarget: 0
+      damageBonus: 0
+      grassType: 2
+      pivotCorrection: 1
+      constructionType: 1
+  - name: Catapult
+    id: 2
+    levels:
+    - Description: Heavy
+      Currency: 1
+      Price: 200
+      TimeToBuild: 160
+      XpAward: 100
+      HP: 200
+      UpRatio: 0
+      IdOfBigIcon: catapult
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: catapult_bw
+      MaxCountOfThisItem: 100
+      name: Catapult
+      id: 2
+      level: 1
+      asset: {fileID: 141472, guid: f6447ed9767d75c4faf03a959e920847, type: 3}
+      damagePoints: 100
+      range: 50
+      fireRate: 2
+      damageType: 0
+      targetType: 1
+      preferredTarget: 0
+      damageBonus: 0
+      grassType: 2
+      pivotCorrection: 1
+      constructionType: 1
+  - name: Drone
+    id: 3
+    levels:
+    - Description: Light Aircraft
+      Currency: 1
+      Price: 300
+      TimeToBuild: 180
+      XpAward: 100
+      HP: 200
+      UpRatio: 0
+      IdOfBigIcon: drone
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: drone_bw
+      MaxCountOfThisItem: 100
+      name: Drone
+      id: 3
+      level: 1
+      asset: {fileID: 107526, guid: 7a923e398315f754ca682d27443391f1, type: 3}
+      damagePoints: 100
+      range: 50
+      fireRate: 2
+      damageType: 1
+      targetType: 3
+      preferredTarget: 0
+      damageBonus: 0
+      grassType: 1
+      pivotCorrection: 0
+      constructionType: 1
+  - name: Bomb
+    id: 4
+    levels:
+    - Description: Explosive Device
+      Currency: 1
+      Price: 200
+      TimeToBuild: 240
+      XpAward: 100
+      HP: 200
+      UpRatio: 0
+      IdOfBigIcon: bomb
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: bomb_bw
+      MaxCountOfThisItem: 100
+      name: Bomb
+      id: 4
+      level: 1
+      asset: {fileID: 107526, guid: e6ba0ffa9d7554c4c9fe7faf95aa9f21, type: 3}
+      damagePoints: 100
+      range: 50
+      fireRate: 2
+      damageType: 0
+      targetType: 1
+      preferredTarget: 0
+      damageBonus: 0
+      grassType: 0
+      pivotCorrection: 0
+      constructionType: 0
+  - name: Air Mine
+    id: 5
+    levels:
+    - Description: Explosive Device
+      Currency: 1
+      Price: 200
+      TimeToBuild: 240
+      XpAward: 100
+      HP: 200
+      UpRatio: 0
+      IdOfBigIcon: airMine
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: airMine_bw
+      MaxCountOfThisItem: 100
+      name: Air Mine
+      id: 5
+      level: 1
+      asset: {fileID: 107526, guid: 7d5fa104749b11e42a709fb578b52653, type: 3}
+      damagePoints: 100
+      range: 50
+      fireRate: 2
+      damageType: 0
+      targetType: 2
+      preferredTarget: 0
+      damageBonus: 0
+      grassType: 0
+      pivotCorrection: 0
+      constructionType: 0

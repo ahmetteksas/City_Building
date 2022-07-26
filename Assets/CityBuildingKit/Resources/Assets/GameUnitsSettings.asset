@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcc2cea5977b84efab333a5effaf6cb1, type: 3}
+  m_Name: GameUnitsSettings
+  m_EditorClassIdentifier: 
+  buildingTypesNo: 12
+  resourcesBuildingTypesNo: 6
+  militaryBuildingTypesNo: 6
+  grassTypesNo: 7
+  removableGrassTypesNo: 3
+  removableTypesNo: 7
+  wallTypesNo: 13
+  fenceTypesNo: 10
+  weaponTypesNo: 6
+  ambientTypesNo: 16
+  unitsNo: 10
+  maxUnitsNo: 10
+  campaignNo: 22
