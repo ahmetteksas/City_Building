@@ -218,7 +218,7 @@ public class SoundFX : MonoBehaviour
     {
         switchingAudioSourceVolume[index] += delta;
         switchingAudioSourceVolume[index] = Mathf.Clamp(switchingAudioSourceVolume[index], 0, 1);
-        switchingAudioSource[index].volume = switchingAudioSourceVolume[index];
+        //switchingAudioSource[index].volume = switchingAudioSourceVolume[index];
     }
 
     private void SoundTransition()
@@ -228,7 +228,7 @@ public class SoundFX : MonoBehaviour
             SetSwitchingVolume(currentSwitchingAudioSource, currentDelta);
             if (switchingAudioSourceVolume[currentSwitchingAudioSource] < thresholdDown)
             {
-                switchingAudioSource[currentSwitchingAudioSource].Pause();
+                //switchingAudioSource[currentSwitchingAudioSource].Pause();
                 halfDone = true;
             }
         }
@@ -309,7 +309,7 @@ public class SoundFX : MonoBehaviour
             //halfDone = false;
         }
 
-        switchingAudioSource[nextSwitchingAudioSource].Play();
+        //switchingAudioSource[nextSwitchingAudioSource].Play();
 
         halfDone = false;
         inTransition = true;

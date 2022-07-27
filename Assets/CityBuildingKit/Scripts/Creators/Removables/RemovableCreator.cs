@@ -96,6 +96,7 @@ public class RemovableCreator : MonoBehaviour
         GetRemovablesXML();
         RecordRemoveTime();//make sure this happens before game load if automatic
                            //InitializeRemovables();
+
     }
 
     private void GetRemovablesXML()//reads buildings XML
@@ -379,6 +380,30 @@ public class RemovableCreator : MonoBehaviour
                 break;
             case "TreeD":
                 currentSelection = 6;
+                break;
+            case "FlowerA": 
+                currentSelection = 7; 
+                break;
+            case "FlowerB": 
+                currentSelection = 8; 
+                break;
+            case "FlowerC": 
+                currentSelection = 9; 
+                break;
+            case "FlowerD": 
+                currentSelection = 10; 
+                break;
+            case "FlowerE": 
+                currentSelection = 11; 
+                break;
+            case "FlowerF": 
+                currentSelection = 12; 
+                break;
+            case "FlowerG": 
+                currentSelection = 13; 
+                break;
+            case "FlowerH":
+                currentSelection = 14; 
                 break;
         }
     }

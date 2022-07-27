@@ -50,8 +50,64 @@
 		<Currency>Mana</Currency>				
 		<RemovePrice>400</RemovePrice>
 		<XpAward>2</XpAward>
-	</Removable>	
-	
+	</Removable>
+  <Removable>
+    <Name>FlowerA</Name>
+    <RemoveTime>5</RemoveTime>
+    <Currency>Mana</Currency>
+    <RemovePrice>400</RemovePrice>
+    <XpAward>2</XpAward>
+  </Removable>
+  <Removable>
+    <Name>FlowerB</Name>
+    <RemoveTime>5</RemoveTime>
+    <Currency>Mana</Currency>
+    <RemovePrice>400</RemovePrice>
+    <XpAward>2</XpAward>
+  </Removable>
+  <Removable>
+    <Name>FlowerC</Name>
+    <RemoveTime>5</RemoveTime>
+    <Currency>Mana</Currency>
+    <RemovePrice>400</RemovePrice>
+    <XpAward>2</XpAward>
+  </Removable>
+  <Removable>
+    <Name>FlowerD</Name>
+    <RemoveTime>5</RemoveTime>
+    <Currency>Mana</Currency>
+    <RemovePrice>400</RemovePrice>
+    <XpAward>2</XpAward>
+  </Removable>
+  <Removable>
+    <Name>FlowerE</Name>
+    <RemoveTime>5</RemoveTime>
+    <Currency>Mana</Currency>
+    <RemovePrice>400</RemovePrice>
+    <XpAward>2</XpAward>
+  </Removable>
+  <Removable>
+    <Name>FlowerF</Name>
+    <RemoveTime>5</RemoveTime>
+    <Currency>Mana</Currency>
+    <RemovePrice>400</RemovePrice>
+    <XpAward>2</XpAward>
+  </Removable>
+  <Removable>
+    <Name>FlowerG</Name>
+    <RemoveTime>5</RemoveTime>
+    <Currency>Mana</Currency>
+    <RemovePrice>400</RemovePrice>
+    <XpAward>2</XpAward>
+  </Removable>
+  <Removable>
+    <Name>FlowerH</Name>
+    <RemoveTime>5</RemoveTime>
+    <Currency>Mana</Currency>
+    <RemovePrice>400</RemovePrice>
+    <XpAward>2</XpAward>
+  </Removable>
+
 </Removables>
 
 

@@ -330,7 +330,7 @@ public class SaveLoadMap : SaveLoadBase
 		//Grass = GameObject.FindGameObjectsWithTag ("Grass");//finds all patches of grass from underneath the buildings
 
 		GameObject[] structures = GameObject.FindGameObjectsWithTag ("Structure");
-		ClearStructureLists ();
+		//ClearStructureLists ();
 
 		foreach (GameObject structure in structures) 
 		{

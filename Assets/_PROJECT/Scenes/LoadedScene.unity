@@ -2986,43 +2986,6 @@ MonoBehaviour:
   DeleteWeaponYN: {fileID: 0}
   constructionGreenlit: 1
   waitForPlacement: 0
---- !u!84 &136615266
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: SpriteLightKit RT
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 5
-  m_Width: 902
-  m_Height: 507
-  m_AntiAliasing: 1
-  m_MipCount: -1
-  m_DepthStencilFormat: 0
-  m_ColorFormat: 8
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 0
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
-  m_ShadowSamplingMode: 2
 --- !u!1001 &148202277
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4168,7 +4131,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TargetTexture
       value: 
-      objectReference: {fileID: 1873543285}
+      objectReference: {fileID: 1259349636}
     - target: {fileID: 20768773514764080, guid: 7a1380fea9eb37746b822bf0b4bbc670,
         type: 3}
       propertyPath: m_projectionMatrixMode
@@ -14290,7 +14253,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   removableIndex: -1
-  removeTimes: 00000000000000000000000000000000000000000000000000000000
+  removeTimes: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   battleMap: 0
   RemovableSelectedPanel: {fileID: 488850364}
   RemovableTimerPf: {fileID: 1054036833110702, guid: 8a6151c8fa2d9dd49ab0a06062ef7fc0,
@@ -15989,6 +15952,43 @@ MonoBehaviour:
   queList: []
   UnitProcObj: {fileID: 1620936797}
   unitProc: {fileID: 1620936799}
+--- !u!84 &1259349636
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SpriteLightKit RT
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 5
+  m_Width: 833
+  m_Height: 469
+  m_AntiAliasing: 1
+  m_MipCount: -1
+  m_DepthStencilFormat: 0
+  m_ColorFormat: 8
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 0
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
+  m_ShadowSamplingMode: 2
 --- !u!1 &1260207604 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1587676405625522, guid: 44c9b9bdc87a7a041ad6aefad8e0dffc,
@@ -19012,6 +19012,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1446095850}
     m_Modifications:
+    - target: {fileID: 1883604465092150, guid: 4c5db5a213a3ca845b796a7b28fddaf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 224503807488350602, guid: 4c5db5a213a3ca845b796a7b28fddaf9,
         type: 3}
       propertyPath: m_Pivot.x
@@ -21555,43 +21559,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1866881390}
   m_PrefabAsset: {fileID: 0}
---- !u!84 &1873543285
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: SpriteLightKit RT
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 5
-  m_Width: 902
-  m_Height: 507
-  m_AntiAliasing: 1
-  m_MipCount: -1
-  m_DepthStencilFormat: 0
-  m_ColorFormat: 8
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 0
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
-  m_ShadowSamplingMode: 2
 --- !u!1 &1876965717
 GameObject:
   m_ObjectHideFlags: 0
@@ -21831,7 +21798,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shader: {fileID: 4800000, guid: 09755a4891f8d4526a7e0690a23dec7b, type: 3}
-  spriteLightRT: {fileID: 136615266}
+  spriteLightRT: {fileID: 1259349636}
   use2xMultiplicationBlending: 0
 --- !u!114 &1885244841
 MonoBehaviour:
