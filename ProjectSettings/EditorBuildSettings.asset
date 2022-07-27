@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/CityBuildingKit/Scenes/Game.unity
+    path: Assets/_PROJECT/Scenes/Game.unity
     guid: 082778915a0ede04db3ad14e20cdd35f
   - enabled: 0
     path: 
