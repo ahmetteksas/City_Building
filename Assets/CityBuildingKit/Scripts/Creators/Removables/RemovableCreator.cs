@@ -6,6 +6,7 @@ using Assets.Scripts.Menus;
 using UnityEngine.UI;
 using Assets.Scripts.UIControllersAndData.Images;
 using UIControllersAndData.Store;
+using UnityEngine.SceneManagement;
 
 
 
@@ -50,10 +51,30 @@ public class RemovableCreator : MonoBehaviour
 
     private Component relay, stats;
 
+    public Button removableButton;
+    public Button localLoadButton;
+
     // Use this for initialization
     void Start()
     {
+        //if (PlayerPrefs.GetString("savefile") == "")
+        //{
+        //    StartCoroutine(ClickMyButton());
+        //}
+        if (SceneManager.GetActiveScene().buildIndex == 1)
+        {
+            StartCoroutine(ClickMyButton());
+        }
+        else
+        {
+            if (SceneManager.GetActiveScene().buildIndex == 2)
+            {
+                //StartCoroutine(ClickMyButton());
 
+                removableButton.gameObject.SetActive(false);
+                StartCoroutine(LoadLocal());
+            }
+        }
         //Getting removables from SO Removables.asset-
         numberOfRemovables = OtherGameData.Instance.Removables.Category.Count;
         RemovablesPf = new GameObject[numberOfRemovables];
@@ -75,7 +96,6 @@ public class RemovableCreator : MonoBehaviour
         GetRemovablesXML();
         RecordRemoveTime();//make sure this happens before game load if automatic
                            //InitializeRemovables();
-
     }
 
     private void GetRemovablesXML()//reads buildings XML
@@ -121,6 +141,19 @@ public class RemovableCreator : MonoBehaviour
             }
             removables.Add(dictionary);
         }
+    }
+
+    IEnumerator ClickMyButton()
+    {
+        yield return new WaitForSeconds(4f);
+        removableButton.onClick.Invoke();
+        yield return new WaitForFixedUpdate();
+        removableButton.gameObject.SetActive(false);
+    }
+    IEnumerator LoadLocal()
+    {
+        yield return new WaitForSeconds(3f);
+        localLoadButton.onClick.Invoke();
     }
 
     private void RecordRemoveTime()
@@ -363,7 +396,7 @@ public class RemovableCreator : MonoBehaviour
         ((RemovableSelector)removableSelector).removableIndex = removableIndex;
         ((RemovableSelector)removableSelector).iColumn = i;
         ((RemovableSelector)removableSelector).jRow = j;
-        
+
         ((GrassSelector)grassSelector).grassIndex = removableIndex;
 
         selectedRemovable.transform.parent = GroupRemovables.transform;
