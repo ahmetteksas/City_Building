@@ -75,7 +75,7 @@ MonoBehaviour:
     - Description: Ranged
       Currency: 1
       Price: 100
-      TimeToBuild: 30
+      TimeToBuild: 20
       XpAward: 100
       HP: 200
       UpRatio: 0
@@ -104,7 +104,7 @@ MonoBehaviour:
     - Description: Heavy
       Currency: 1
       Price: 200
-      TimeToBuild: 160
+      TimeToBuild: 100
       XpAward: 100
       HP: 200
       UpRatio: 0
@@ -133,7 +133,7 @@ MonoBehaviour:
     - Description: Light Aircraft
       Currency: 1
       Price: 300
-      TimeToBuild: 180
+      TimeToBuild: 120
       XpAward: 100
       HP: 200
       UpRatio: 0
@@ -162,7 +162,7 @@ MonoBehaviour:
     - Description: Explosive Device
       Currency: 1
       Price: 200
-      TimeToBuild: 240
+      TimeToBuild: 150
       XpAward: 100
       HP: 200
       UpRatio: 0

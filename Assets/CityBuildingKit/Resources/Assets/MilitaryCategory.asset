@@ -78,7 +78,7 @@ MonoBehaviour:
         Like... ever.
       Currency: 1
       Price: 5000
-      TimeToBuild: 30
+      TimeToBuild: 20
       XpAward: 400
       HP: 200
       UpRatio: 1
@@ -104,7 +104,7 @@ MonoBehaviour:
         Like... ever.
       Currency: 1
       Price: 6000
-      TimeToBuild: 30
+      TimeToBuild: 25
       XpAward: 400
       HP: 200
       UpRatio: 1
@@ -133,7 +133,7 @@ MonoBehaviour:
         soldiers use it so infrequently that we can neither confirm nor deny it.
       Currency: 2
       Price: 3000
-      TimeToBuild: 60
+      TimeToBuild: 40
       XpAward: 200
       HP: 100
       UpRatio: 0
@@ -159,7 +159,7 @@ MonoBehaviour:
         soldiers use it so infrequently that we can neither confirm nor deny it.
       Currency: 2
       Price: 4000
-      TimeToBuild: 70
+      TimeToBuild: 50
       XpAward: 200
       HP: 200
       UpRatio: 0
@@ -188,7 +188,7 @@ MonoBehaviour:
         The less you know, the better. Seriously.
       Currency: 2
       Price: 20000
-      TimeToBuild: 120
+      TimeToBuild: 80
       XpAward: 500
       HP: 200
       UpRatio: 1
@@ -214,7 +214,7 @@ MonoBehaviour:
         The less you know, the better. Seriously.
       Currency: 2
       Price: 30000
-      TimeToBuild: 120
+      TimeToBuild: 100
       XpAward: 500
       HP: 200
       UpRatio: 1
@@ -244,7 +244,7 @@ MonoBehaviour:
         Or Monday. Maybe Wednesday... Feel free to call first.
       Currency: 1
       Price: 20000
-      TimeToBuild: 120
+      TimeToBuild: 80
       XpAward: 500
       HP: 200
       UpRatio: 1
@@ -271,7 +271,7 @@ MonoBehaviour:
         Or Monday. Maybe Wednesday... Feel free to call first.
       Currency: 1
       Price: 30000
-      TimeToBuild: 130
+      TimeToBuild: 100
       XpAward: 500
       HP: 200
       UpRatio: 1
@@ -301,7 +301,7 @@ MonoBehaviour:
         pancakes are ready!
       Currency: 2
       Price: 2000
-      TimeToBuild: 60
+      TimeToBuild: 30
       XpAward: 500
       HP: 200
       UpRatio: 2
@@ -328,7 +328,7 @@ MonoBehaviour:
         pancakes are ready!
       Currency: 2
       Price: 1000
-      TimeToBuild: 60
+      TimeToBuild: 30
       XpAward: 500
       HP: 200
       UpRatio: 2
