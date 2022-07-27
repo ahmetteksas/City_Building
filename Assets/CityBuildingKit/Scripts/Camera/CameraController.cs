@@ -38,7 +38,7 @@ public class CameraController:MonoBehaviour
 	private float
 		lastPanX,
 		lastPanY,
-		zoomMax = 1.0f,						//caps for zoom
+		zoomMax = .5f,						//caps for zoom
 		zoomMin = 0.25f,
 		zoom, 								// the current camera zoom factor
 		currentFingerDistance,

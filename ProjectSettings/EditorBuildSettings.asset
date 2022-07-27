@@ -8,10 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/CityBuildingKit/Scenes/Game.unity
     guid: 082778915a0ede04db3ad14e20cdd35f
-  - enabled: 1
-    path: Assets/CityBuildingKit/Scenes/Map01.unity
-    guid: 82b85a445c1b7b342b926d355026438c
   - enabled: 0
-    path: Assets/NGUI/Examples/Scenes/Example 1 - Anchors.unity
-    guid: a1a629371c484164e85541902c003f93
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}
