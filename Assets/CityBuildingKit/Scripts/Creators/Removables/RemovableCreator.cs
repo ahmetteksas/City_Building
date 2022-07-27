@@ -72,7 +72,7 @@ public class RemovableCreator : MonoBehaviour {
 		}
 		GetRemovablesXML();
 		RecordRemoveTime();//make sure this happens before game load if automatic
-
+		InitializeRemovables();
 
 	}
 
